@@ -107,8 +107,8 @@ def get_pixel(spline_x, spline_y, spline_z, first_line_time, times, range_time_1
 
 if __name__ == "__main__":
 
-    xml_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240.xml'
-    xml_path_slave = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241.xml'
+    xml_path_master = ''
+    xml_path_slave = ''
 
     lon = 1.31031108389863789E+02
     lat = -2.53445301056790093E+01

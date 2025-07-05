@@ -103,9 +103,9 @@ def parameter_estimation(shifts, degree:int = 2):
 
 if __name__ == "__main__":
 
-    cos_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/IMAGEDATA/IMAGE_HH_SRA_spot_068.cos'
-    cos_path_slave = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241/IMAGEDATA/IMAGE_HH_SRA_spot_068.cos'
-    shifts_file = '/Users/timo/Desktop/SummerSchool/australia/shifts_py.csv'
+    cos_path_master = ''
+    cos_path_slave = ''
+    shifts_file = ''
 
     window_size_x = 128
     window_size_y = 128

@@ -190,10 +190,10 @@ def get_random_points(number_poitns, left, right, bottom, top,
     return result
 
 if __name__ == "__main__":
-    cos_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/IMAGEDATA/IMAGE_HH_SRA_spot_068.cos'
-    resampled_tiff = '/Users/timo/Desktop/SummerSchool/australia/resampled.tiff'
-    xml_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240.xml'
-    xml_path_slave = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241.xml'
+    cos_path_master = ''
+    resampled_tiff = ''
+    xml_path_master = ''
+    xml_path_slave = ''
 
     left = 130.99
     right = 131.1

@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
-    cos_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/IMAGEDATA/IMAGE_HH_SRA_spot_068.cos'
-    resampled_tiff = '/Users/timo/Desktop/SummerSchool/australia/resampled.tiff'
+    cos_path_master = ''
+    resampled_tiff = ''
 
     with rasterio.open(cos_path_master) as img_master:
         master = img_master.read(1)

@@ -188,8 +188,8 @@ def get_random_points(number_poitns, left, right, bottom, top,
 
 if __name__ == "__main__":
 
-    xml_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240.xml'
-    xml_path_slave = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241.xml'
+    xml_path_master = ''
+    xml_path_slave = ''
 
     left = 130.99
     right = 131.1

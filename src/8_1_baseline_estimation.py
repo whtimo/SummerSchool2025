@@ -143,8 +143,8 @@ def calculate_baselines(ground_pos, master_pos, slave_pos):
 
 if __name__ == "__main__":
 
-    xml_path_master = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240/TSX1_SAR__SSC______HS_S_SRA_20090212T204239_20090212T204240.xml'
-    xml_path_slave = '/Users/timo/Desktop/SummerSchool/data/TSX/Australia/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241/TSX1_SAR__SSC______HS_S_SRA_20090223T204240_20090223T204241.xml'
+    xml_path_master = ''
+    xml_path_slave = ''
 
     mas_spline_x, mas_spline_y, mas_spline_z, mas_first_line_time, mas_times = get_rd_parameters(xml_path_master)
     mas_range_time_1st_pix, mas_first_azimuth_datetime, mas_range_spacing, mas_azimuth_spacing = get_spacing(xml_path_master)
